@@ -26,10 +26,14 @@
     <div>
         <!-- Create a link to the Menu action in the Home controller.
              Inside the link, display the banner image selected by imageUrl with full width -->
+
         <a asp-controller="Home" asp-action="Menu">
             <img src="~/images/banners/@imageUrl" width="100%" />
         </a>
     </div>
+    <h1>
+        @ViewData["Title"]
+    </h1>
     <div>
         <!-- Render the body of the page -->
         @RenderBody()

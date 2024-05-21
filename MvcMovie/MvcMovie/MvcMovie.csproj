@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-MvcMovie-26ee32ae-d5b5-4951-87cb-e45ba8d93224</UserSecretsId>
+    <UserSecretsId>aspnet-MvcMovie-12495905-4a58-4d13-8f7e-2f600f663c29</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
