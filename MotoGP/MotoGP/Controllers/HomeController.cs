@@ -1,5 +1,6 @@
 ﻿    using Microsoft.AspNetCore.Mvc;
 using MotoGP.Models;
+using System.Data;
 using System.Diagnostics;
 
 namespace MotoGP.Controllers
@@ -15,6 +16,14 @@ namespace MotoGP.Controllers
 
         public IActionResult Index()
         {
+            return View();
+        }
+
+        public IActionResult Menu()
+        {
+            Random random = new Random();
+            int randomNumber = random.Next(1,5);
+            ViewData["BannerNr"] = randomNumber;
             return View();
         }
 
