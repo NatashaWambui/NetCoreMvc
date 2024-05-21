@@ -6,15 +6,6 @@ namespace MotoGP.Controllers
     {
         public IActionResult ListRaces()
         {
-            ViewData["Title"] = "Races";
-            return View();
-        }
-        public IActionResult ListTeams() {
-            ViewData["BannerNr"] = 2;
-            return View();
-        }
-        public IActionResult ListRiders() {
-            ViewData["BannerNr"] = 1;
             return View();
         }
     }
